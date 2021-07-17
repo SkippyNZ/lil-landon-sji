@@ -6,7 +6,7 @@ const Header = () => {
 
   const loadMenuLinksData = async() => {
     // Query the API Gateway
-    const resp = await fetch('https://8kkdqrfcyl.execute-api.us-east-1.amazonaws.com/Production/menu_links');
+    const resp = await fetch('https://8kkdqrfcyl.execute-api.us-east-1.amazonaws.com/Production/menulinks');
     let jsonData = await resp.json();
 
     // Assign response data to our state variable
